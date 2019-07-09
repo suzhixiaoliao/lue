@@ -1,0 +1,22 @@
+/* reset */
+@import './reset.css';
+/* 公共样式 */
+@import './common.css';
+/* 字体图标 */
+@import './icon.css';
+/* 标题栏样式 */
+@import './header.css';
+/* 内容区样式 */
+@import './content.css';
+/* 导航条样式 */
+@import './navbar.css';
+
+.l-mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 200;
+}

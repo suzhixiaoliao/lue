@@ -1,0 +1,11 @@
+.l-content{
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+.l-header ~ .l-content{
+    padding-top: 2.3rem;
+}
+.l-navbar ~ .l-content{
+    padding-bottom: 2.5rem;
+}

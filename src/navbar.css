@@ -1,0 +1,10 @@
+.l-navbar{
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    max-width: 640%;
+    height: 2.5rem;
+    border-top: 1px solid #dddddd;
+    z-index: 200;
+}
